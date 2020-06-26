@@ -1,0 +1,85 @@
+.display-1 {
+    font-weight: 500;
+    opacity: 1;
+}
+
+.d-flex {
+    width: 100%;
+}
+
+#workNo {
+    position: fixed;
+
+      top: 24px;
+      left: 50px;
+      color: white;
+      opacity: 0.5;
+      background: none;
+      font-family: 'Darker Grotesque', sans-serif;
+        font-weight: 400;
+        font-size: 19px;
+        border-radius: 1px;
+        border-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        outline: none;
+        cursor: default;
+        letter-spacing: 1px;
+        z-index: 1;
+}
+
+a {
+    text-decoration:none;
+    color: white;
+    border-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        outline: none;
+}
+
+a:hover {
+    text-decoration:none;
+        color: white;
+        border-color: transparent;
+            background-repeat: no-repeat;
+            border: none;
+            outline: none;
+}
+
+#first {
+    padding-right: 27%;
+}
+
+#second {
+    padding-left: 34%;
+}
+
+
+#third {
+    text-align: left;
+    padding-right: 30%;
+}
+
+#fourth {
+    text-align: left;
+    padding-right: 73%;
+}
+
+
+#fifth {
+text-align: left;
+    padding-left: 61%;
+}
+
+
+#sixth {
+text-align: left;
+    padding-left: 45%;
+}
+
+
+section {
+    z-index: -1;
+    background: black;
+    padding-top: 100px;
+}
