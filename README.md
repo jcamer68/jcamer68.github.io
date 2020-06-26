@@ -1,5 +1,6 @@
 # jcamer68.github.io
 Personal Website V1.0
+
 Next steps:
 - Format for improved mobile viewing
 - Add animation using JS
