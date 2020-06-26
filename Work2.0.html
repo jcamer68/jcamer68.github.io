@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en" style="font-size: 27px; font-weight: 700;">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+    <title>Hello, world!</title>
+</head>
+<body>
+
+<style>
+    body {
+        background: black;
+        font-family: 'Darker Grotesque', sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    li {
+        width: 100%;
+    }
+
+    .black .Lavender {
+
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("Lavender.png") center center;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+
+    }
+
+    .black .Concis {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("Lavender.png") center center;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+    .black .MSAM {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("Lavender.png") center center;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+    .black .YorkU {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("Lavender.png") center center;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+    h5 {
+    text-align: center;
+    color: white;
+    font-size: 20rem;
+    line-height: 0.7em;
+    padding-bottom: 1.5rem;
+    transition: color 0.5s;
+    cursor: pointer;
+    opacity: 1;
+    }
+
+    h6 {
+    color: transparent;
+    font-size: 20px;
+    transition: color 0.5s;
+    cursor: pointer;
+    }
+
+    .left h6 {
+        text-align: left;
+        padding-left: 10%;
+    }
+
+    .right h6 {
+        text-align: right;
+        padding-right: 10%;
+    }
+
+    .experience {
+        border-top: 1px solid #404040;
+        background: black;
+        cursor: pointer;
+    }
+
+    .experience:hover h5 {
+          color:transparent;
+         -webkit-text-stroke:1px white;
+    }
+
+    .experience:hover h6 {
+
+        color: 	#808080;
+    }
+
+    .black {
+        background: black;
+        position: relative;
+         z-index: 5;
+    }
+
+    .mybutton {
+        background: black;
+        padding-bottom: 5%;
+        border-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        outline: none;
+
+    }
+
+
+#about {
+ position: fixed;
+  top: 24px;
+  right: 50px;
+  color: pink;
+  background: black;
+  font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    border-radius: 1px;
+    border-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+  color: white;
+  background: black;
+  font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 500;
+    font-size: 4rem;
+    border-radius: 1px;
+    border-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    position: fixed;
+    padding: 0;
+    line-height: 4rem;
+    right: 25px;
+    left: 25px;
+    z-index: -1;
+}
+
+.down {
+    margin-top: 50%;
+}
+
+.Lavender {
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+.experience:hover .Lavender {
+    background-image: url("Lavender.png");
+    opacity: 1;
+}
+
+.Concis {
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+.experience:hover .Concis {
+    background-image: url("Concis.png");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    opacity: 1;
+}
+
+.MSAM {
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+.experience:hover .MSAM {
+    background-image: url("MSAM.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    opacity: 1;
+}
+
+.YorkU {
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+.experience:hover .YorkU {
+    background-image: url("YorkU.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    opacity: 1;
+}
+
+img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+</style>
+
+<div class="mybutton">
+    <h4>
+        <button id="workNo" disabled>Work</button>
+        <button id="about"><a href="About.html">About</a></button>
+    </h4>
+</div>
+<div class="container">
+
+    <h1>
+        <img src="intro.png">
+        <!--<span id="first">Business & engineering</span>
+        <span id="second">student from Toronto.</span>
+        <span id="third">Focused on integrating</span>
+        <span id="fourth">the two,</span>
+        <span id="fifth">in pursuit of</span>
+        <span id="sixth">bettering society.</span> -->
+    </h1>
+</div>
+
+
+
+<ul class="list-group list-group-flush down">
+    <li class="experience">
+        <a href="https://www.trylavender.com/">
+        <ul class="list-group list-group-horizontal d-flex justify-content-center align-items-center">
+            <li class="list-group-item black left col-sm-2"><h6>Business Analyst</h6></li>
+            <li class="list-group-item black col-sm-8"><div class="Lavender"></div><h5 class="display-1">Lavender</h5></li>
+            <li class="list-group-item black right col-sm-2"><h6>2020</h6></li>
+        </ul>
+        </a>
+    </li>
+    <li class="experience">
+        <a href="https://concis.substack.com/">
+        <ul class="list-group list-group-horizontal d-flex justify-content-center align-items-center">
+            <li class="list-group-item black left"><h6>Product Team</h6></li>
+            <li class="list-group-item black col-sm-8"><div class="Concis"></div><h5 class="display-1">Concis</h5></li>
+            <li class="list-group-item black right"><h6>2020</h6></li>
+        </ul>
+        </a>
+    </li>
+    <li class="experience">
+        <a href="https://msam-uwaterloo.ca/">
+        <ul class="list-group list-group-horizontal d-flex justify-content-center align-items-center ">
+            <li class="list-group-item black left"><h6>Research Analyst</h6></li>
+            <li class="list-group-item black col-sm-8"><div class="MSAM"></div><h5 class="display-1">MSAM</h5></li>
+            <li class="list-group-item black right"><h6>2019</h6></li>
+        </ul>
+        </a>
+    </li>
+    <li class="experience">
+        <a href="https://www.glendon.yorku.ca/">
+        <ul class="list-group list-group-horizontal d-flex justify-content-center align-items-center ">
+            <li class="list-group-item black left"><h6>Head Coach - Basketball</h6></li>
+            <li class="list-group-item black col-sm-8"><div class="YorkU"></div><h5 class="display-1">YorkU</h5></li>
+            <li class="list-group-item black right"><h6>2017</h6></li>
+        </ul>
+        </a>
+    </li>
+</ul>
+
+<section class="py-100">
+To be continued...
+<section>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
