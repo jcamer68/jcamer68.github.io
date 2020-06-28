@@ -25,7 +25,7 @@
         outline: none;
         cursor: default;
         letter-spacing: 1px;
-        z-index: 1;
+        z-index: 2;
 }
 
 a {
@@ -82,4 +82,37 @@ section {
     z-index: -1;
     background: black;
     padding-top: 100px;
+}
+
+h6 span {
+    margin-left: 48%;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #505050;
+    position: relative;
+        font-family: 'Darker Grotesque', sans-serif;
+        font-weight: 500;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0 10px;
+        display:inline-block;
+        line-height: 0.7em;
+        margin-left: 48%;
+        transition: color 0.5s;
+}
+
+#year {
+    margin-left: 48%;
+        font-family: 'Darker Grotesque', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: #505050;
+        position: relative;
+            color: white;
+            align-items: center;
+            justify-content: center;
+
+            transition: color 0.5s;
 }
